@@ -89,16 +89,6 @@ local Paragraph = Tab:AddParagraph({"Paragraph", "this is a Paragraph"})
 ]]
 ```
 
-## Label
-Create a Text Label
-```lua
-local TextLabel = Tab:AddLabel({"Text", "This is a Text Label"})
-
---[[
-  TextLabel:Set("New Name")
-]]
-```
-
 Create a Image Label
 ```lua
 local ImageLabel = Tab:AddLabel({"Image", "This is a Image Label", "rbxassetid://"})
