@@ -60,7 +60,7 @@ local Notify = Library:MakeNotify({
 ## Tab
 Create a Tab
 ```lua
-local Tab = Window:MakeTab({Name = "Tab", Icon = "Home"})
+local Tab = Window:MakeTab({Title = "Tab", Icon = "Home"})
 
 --[[
   Tab:Set("New Icon or Name")
